@@ -1,3 +1,4 @@
+import './SearchBar.css';
 import React from 'react';
 
 class SearchBar extends React.Component {
@@ -18,12 +19,22 @@ class SearchBar extends React.Component {
       <div className="search-bar ui segment">
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
-            <label>Video Search</label>
-            <input
-              type="text"
-              value={this.state.term}
-              onChange={this.onInputChange}
-            />
+            <h2 className="ui header">Video Search</h2>
+            <div>
+              <input
+                id="search-input"
+                type="text"
+                value={this.state.term}
+                onChange={this.onInputChange}
+              />
+              <button
+                className="ui youtube button"
+                type="submit"
+                onClick={this.onFormSubmit}
+              >
+                Search
+              </button>
+            </div>
           </div>
         </form>
       </div>

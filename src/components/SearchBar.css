@@ -1,0 +1,7 @@
+.search-bar .field div {
+  display: flex;
+}
+
+#search-input {
+  margin: 0 1em;
+}
