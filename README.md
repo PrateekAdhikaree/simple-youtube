@@ -2,6 +2,7 @@
 
 ## Tools Used
 
+- react-js [[Ref]](https://reactjs.org/docs/getting-started.html)
 - YouTube Data V3 API [[Ref]](https://developers.google.com/youtube/v3/docs/search/list)
 - Semantics UI (_for CSS_) [[Ref]](https://semantic-ui.com/introduction/getting-started.html)
 
@@ -27,7 +28,14 @@ You will also see any lint errors in the console.
   - [VideoDetail](src/components/VideoDetail.js)
   - [VideoList](src/components/VideoList.js)
     - [VideoItem](src/components/VideoItem.js)
-  - [youtube](src/apis/youtube.js) - Scaffolding for easily calling YouTube API using Axion 
+  - [youtube](src/apis/youtube.js) - Scaffolding for easily calling YouTube API using Axion
+
+## Usage
+
+1. Type any keyword in the input field
+2. Click on 'Search' button or press 'Enter'
+3. 5 videos loaded from YouTube and 1st one selected by default
+4. Click play or select a different video to play
 
 ## Screenshot
 
