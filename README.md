@@ -42,3 +42,7 @@ You will also see any lint errors in the console.
 2. Click on 'Search' button or press 'Enter'
 3. 5 videos loaded from YouTube and 1st one selected by default
 4. Click play or select a different video to play
+
+#### Credits
+
+Stephen Grider [Modern React with Redux [2020 Update]](https://www.udemy.com/course/react-redux/)
